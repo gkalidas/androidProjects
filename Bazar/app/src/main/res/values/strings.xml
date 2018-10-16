@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bazar</string>
+    <string name="loginButton">Login</string>
+    <string name="hello_world">Welcome to the future</string>
+</resources>
