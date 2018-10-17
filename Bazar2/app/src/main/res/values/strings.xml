@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="phone_hint">Mobile Number</string>
+    <string name="pwd_hint">Password</string>
+    <string name="firstName">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="verify">Verify</string>
+    <string name="signIn">Sign In</string>
+</resources>

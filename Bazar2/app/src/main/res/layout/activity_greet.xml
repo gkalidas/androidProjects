@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".greetActivity">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstName"
+        android:inputType="textCapSentences"
+        />
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="textCapSentences"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/phone"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        />
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verify"
+        />
+
+    </RelativeLayout>
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/pwd_hint"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/signIn"
+        />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</FrameLayout>
